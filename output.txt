@@ -1,0 +1,192 @@
+ARRAY LIST OUT PUT
+
+Adams OR 45.7662 -118.5643 484
+
+Adams OR 45.7662 -118.5643 484
+
+null
+
+Ashaway
+Bradford
+Carolina
+Central Falls
+Chepachet
+Clayville
+Cranston
+Cumberland Hill
+East Providence
+Foster Center
+Greene
+Greenville
+Harmony
+Harrisville
+Hope Valley
+Kingston
+Melville
+Misquamicut
+Narragansett Pier
+Newport East
+Newport
+Pascoag
+Pawtucket
+Providence
+Quonochontaug
+Valley Falls
+Warwick
+Watch Hill
+Weekapaug
+Woonsocket
+Wyoming
+Barclay,MD
+Centreville,MD
+Church Hill,MD
+Cordova,MD
+Grasonville,MD
+Greensboro,MD
+Hillsboro,MD
+Queenstown,MD
+Ridgely,MD
+West Denton,MD
+
+Atlanta,GA
+Chicago,IL
+Dallas,TX
+Houston,TX
+Los Angeles,CA
+Miami,FL
+New York,NY
+Philadelphia,PA
+
+
+LINKED LIST OUT PUT 
+
+Adams OR 45.7662 -118.5643 484
+
+Adams OR 45.7662 -118.5643 484
+
+null
+
+Ashaway
+Bradford
+Carolina
+Central Falls
+Chepachet
+Clayville
+Cranston
+Cumberland Hill
+East Providence
+Foster Center
+Greene
+Greenville
+Harmony
+Harrisville
+Hope Valley
+Kingston
+Melville
+Misquamicut
+Narragansett Pier
+Newport East
+Newport
+Pascoag
+Pawtucket
+Providence
+Quonochontaug
+Valley Falls
+Warwick
+Watch Hill
+Weekapaug
+Woonsocket
+Wyoming
+Barclay,MD
+Centreville,MD
+Church Hill,MD
+Cordova,MD
+Grasonville,MD
+Greensboro,MD
+Hillsboro,MD
+Queenstown,MD
+Ridgely,MD
+West Denton,MD
+
+Atlanta,GA
+Chicago,IL
+Dallas,TX
+Houston,TX
+Los Angeles,CA
+Miami,FL
+New York,NY
+Philadelphia,PA
+
+EXECUTION TIME ANALYSIS 
+
+ARRAY LIST EXECUTION TIME 
+The insert() method in arrayList
+Execution 1
+Elapsed Time in milliseconds: 84.851
+Execution 2
+Elapsed Time in milliseconds: 87.501
+Execution 3
+Elapsed Time in milliseconds: 84.691
+Average Execution time: 85.681
+
+The delete() method in arrayList 
+Execution 1
+Elapsed Time in milliseconds: 1.792
+Execution 2
+Elapsed Time in milliseconds: 1.908
+Execution 3
+Elapsed Time in milliseconds: 1.856
+Average Execution time: 1.852
+
+The search() method in arrayList 
+Execution 1
+Elapsed Time in milliseconds: 0.454
+Execution 2
+Elapsed Time in milliseconds: 0.260
+Execution 3
+Elapsed Time in milliseconds: 0.467
+Average Execution time: 1.181
+
+
+LINKED LIST EXECUTION TIME
+
+The insert() method in linkedList
+Execution 1
+Elapsed Time in milliseconds: 2179.974
+Execution 2
+Elapsed Time in milliseconds: 2047.589
+Execution 3
+Elapsed Time in milliseconds: 2181.392
+Average Execution time: 2136.318 
+
+The delete() method in linkedList 
+Execution 1
+Elapsed Time in milliseconds: 0.033
+Execution 2
+Elapsed Time in milliseconds: 0.025
+Execution 3
+Elapsed Time in milliseconds: 0.034
+Average Execution time: 0.031
+
+The search() method in linkedList 
+Execution 1
+Elapsed Time in milliseconds: 1.130
+Execution 2
+Elapsed Time in milliseconds: 1.087
+Execution 3
+Elapsed Time in milliseconds: 0.504
+Average Execution time: 0.934
+
+ANALYSIS (The three questions are answered here)
+
+According to our data, 
+
+Linked list is less efficient than array list while executing the insert() method as we will have to go throw the entire list to find the tail and append the new node (city in our case) and this requires O(n) time complexity. But in array list we just have to append it at the last by assigning the new item (city in our case) to the maxindex + 1 index which requires just O(1) time complexity. 
+
+Array list is less efficient than linked list while executing the delete() method as we will have to move every item in the array by one position after deleting an element which requires O(n) time complexity but in linked list we just have to update the references between nodes and that requires O(1) time complexity.  
+
+Array list is more efficient than linked list while executing the search() method as it provides direct access to elements but linked list requires traversing the list to locate the element. 
+
+Sorting can speed up the search() operation as we use binary search to locate the item. But sorting can slow down the delete() and insert() operations as will have to find the exact position of the item to insert it to or delete it from the list.  
+
+
